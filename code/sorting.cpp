@@ -13,13 +13,6 @@ struct Person
     : name(name), age(age) {}
 };
 
-/* custom comparator for sort() */
-bool age_compare(const Person& lhs, const Person& rhs)
-{
-  return lhs.age < rhs.age;
-}
-
-/* print vector v */
 void print_vec(const vector<Person>& v)
 {
   for(vector<Person>::const_iterator it=v.begin(); it!=v.end(); ++it)
@@ -36,7 +29,7 @@ int main()
   input.push_back( Person("Rita",15)   );
   
   vector<Person> v1(input);
-  sort(v1.begin(), v1.end(), age_compare);
+  sort(v1.begin(), v1.end());
   print_vec(v1);
   
   return 0;
