@@ -1,4 +1,7 @@
-/*
+/* 
+ * the following libraries are not needed
+ * since bits/stdc++ is being used
+ *
  * 
 #include <iostream>
 #include <vector>

@@ -16,7 +16,9 @@ public:
   /* destructor */
   
   ~Box()
-  { }
+  {
+    cout << "I'm called when a Box object is about to be destroyed." << endl;
+  }
   
   /* util */
   
@@ -67,10 +69,14 @@ int main()
   b1.setBreadth(1);
   printBox(b1);
 
-  /*
+  /* 
+   * Example of using the default copy constructor 
+   * to create a new Box from box b1. 
+   * Uncomment to test.
+   *
   Box b2(b1);
   printBox(b2);
-  */
-
+   */
+  
   return 0;
 }
