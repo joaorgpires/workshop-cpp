@@ -10,7 +10,7 @@ int main() {
     string input_string; cin >> input_string;
     // getline(cin, input_string);
 
-    for (int i = 0; i < input_string.length(); i++) {
+    for (size_t i = 0; i < input_string.length(); i++) {
         set_of_chars.insert(input_string[i]);
     }
 
