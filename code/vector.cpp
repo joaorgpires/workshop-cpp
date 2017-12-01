@@ -8,7 +8,8 @@ int main()
   vector<int> input;
 
   int num;
-  
+
+  // input numbers (0 to stop)
   do
   {
     cin >> num;
@@ -19,13 +20,13 @@ int main()
   cout << "1-pop back" << endl
        << "2-insert at the beginning" << endl
        << "3-exit" << endl;
-  
+
   int op;
-  
+
   do
   {
     cin >> op;
-    
+
     switch(op)
     {
     case 1:
@@ -38,7 +39,7 @@ int main()
       input.insert(input.begin(), num);
       break;
     }
-    
+
   }while(op != 3);
 
   cout << "Vec size: " << input.size() << endl;

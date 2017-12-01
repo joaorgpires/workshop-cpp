@@ -19,6 +19,6 @@ int main()
 
   cin >> c >> d;
   cout << "Min: " << min(c,d) << endl;
-  
+
   return 0;
 }

@@ -26,6 +26,6 @@ int main()
 
   cout << "preName: " << preName << endl
        << "posName: " << posName << endl;
-  
+
   return 0;
 }
