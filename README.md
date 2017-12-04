@@ -57,4 +57,8 @@ To execute, simply run:
 
 > ./a.out
 
+## Getting bits/stdc++.h to work on MacOS
+
+Just follow [this](http://codeforces.com/blog/entry/8387?#comment-304303) comment. Any doubts just [contact](http://www.facebook.com/nucc-fcup) us.
+
 &copy; Bruno Casteleiro ([@yat0](http://github.com/yat0/)) and João Rebelo Pires ([@jrbartowski](http://github.com/jrbartowski/)), 2017
